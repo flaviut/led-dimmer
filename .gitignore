@@ -1,4 +1,16 @@
+# PCB production files
+gerbers
 fab
+jlcpcb
+*-drc.txt
+*-erc.txt
+kibot_errors.filter
+Assembly
+Manufacturers
+Browse
+index.html
+
+*-bak
 
 # Created by https://www.toptal.com/developers/gitignore/api/kicad,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=kicad,windows,linux
