@@ -3108,7 +3108,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 20.955 27.1979 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm" (id 2) (at 20.955 22.225 0)
+    (property "Footprint" "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm" (id 2) (at 20.955 22.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 20.955 22.225 0)
@@ -3875,7 +3875,7 @@
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/a394cec0-9537-42e9-9d58-c1a5f15b790c"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-1sqmm_1x02_P5.4mm_D1.4mm_OD2.7mm")
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_Wire:SolderWire-0.75sqmm_1x02_P4.8mm_D1.25mm_OD2.3mm")
     )
     (path "/c1d11b83-3322-46f4-a04c-3eb40838b09a"
       (reference "J3") (unit 1) (value "Conn_01x06") (footprint "Library:PinHeader_1x06_P2.54mm_Horizontal")
