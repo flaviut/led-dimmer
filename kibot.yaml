@@ -8,8 +8,7 @@ preflight:
   run_erc: true
   erc:
     filters:
-      # Ignore "Label not connected to anything" errors
-      - id: label_dangling
+      - filter_msg: "Label not connected to anything"
 
 
 global:
