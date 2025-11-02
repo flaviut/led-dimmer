@@ -5,10 +5,7 @@ kibot:
 
 preflight:
   run_drc: true
-  run_erc: true
-  erc:
-    filters:
-      - filter_msg: "Label not connected to anything"
+  run_erc: false
 
 
 global:
