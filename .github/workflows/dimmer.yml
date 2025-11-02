@@ -11,7 +11,7 @@ jobs:
   smart-controller:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v5
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         config: kibot.yaml
@@ -19,11 +19,11 @@ jobs:
         schema: dimmer.kicad_sch
         board: dimmer.kicad_pcb
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v5
       with:
         name: manufacturing
         path: output/Manufacturers
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v5
       with:
         name: assembly and debugging
         path: |
